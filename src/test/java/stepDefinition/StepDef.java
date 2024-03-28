@@ -14,7 +14,7 @@ import io.cucumber.java.en.Then;
 public class StepDef {
 	BaseClass bs = new BaseClass();
 
-	@Given("Given load the browser and ZigsWheel Page")
+	@Given("load the browser and ZigsWheel Page")
 	public void load_the_browser() {
 		try {
 			bs.invokeBrowser("Windows", "chrome");
@@ -24,7 +24,7 @@ public class StepDef {
 		}
 	}
 
-	@Then("Click on New Bikes and Upcoming bike select hond and get the details of Bikes")
+	@Then("Click on New Bikes and Upcoming bike select honda and get the details of Bikes")
 	public void click_on_new_bikes_and_upcoming_bike_select_hond_and_get_the_details_of_bikes() {
 		TC_001_UpcomingBikeDetails tc1 = new TC_001_UpcomingBikeDetails();
 		try {
@@ -49,7 +49,7 @@ public class StepDef {
 		}
 	}
 
-	@Then("Login/signUp tp google and give invalid details and capture error message")
+	@Then("Login\\/signUp tp google and give invalid details and capture error message")
 	public void login_sign_up_tp_google_and_give_invalid_details_and_capture_error_message() {
 		TC_003_GoogleLogin tc3 = new TC_003_GoogleLogin();
 		TC_004_GoogleSignup tc4 = new TC_004_GoogleSignup();
