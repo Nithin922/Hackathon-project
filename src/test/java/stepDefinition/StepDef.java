@@ -17,7 +17,7 @@ public class StepDef {
 	@Given("load the browser and ZigsWheel Page")
 	public void load_the_browser() {
 		try {
-			bs.invokeBrowser("Windows", "chrome");
+			bs.invokeBrowser("Windows", "edge");
 		} catch (IOException e) {
 			
 			e.printStackTrace();

@@ -2,7 +2,7 @@
 <testng-results ignored="6" total="11" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-28T01:39:08 PDT" name="Suite" finished-at="2024-03-28T01:43:07 PDT" duration-ms="239001">
+  <suite started-at="2024-03-29T01:55:08 PDT" name="Suite" finished-at="2024-03-29T01:57:59 PDT" duration-ms="171184">
     <groups>
       <group name="regression">
         <method signature="TC_001_UpcomingBikeDetails.clickNewBikes()[pri:0, instance:TestCase.TC_001_UpcomingBikeDetails@6221a451]" name="clickNewBikes" class="TestCase.TC_001_UpcomingBikeDetails"/>
@@ -24,27 +24,27 @@
         <method signature="TC_004_GoogleSignup.verifyLoginPage()[pri:0, instance:TestCase.TC_004_GoogleSignup@4d154ccd]" name="verifyLoginPage" class="TestCase.TC_004_GoogleSignup"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-03-28T01:39:08 PDT" name="ChromeTest" finished-at="2024-03-28T01:43:07 PDT" duration-ms="239001">
+    <test started-at="2024-03-29T01:55:08 PDT" name="ChromeTest" finished-at="2024-03-29T01:57:59 PDT" duration-ms="171184">
       <class name="TestCase.TC_004_GoogleSignup">
-        <test-method signature="verifyLoginPage()[pri:0, instance:TestCase.TC_004_GoogleSignup@4d154ccd]" started-at="2024-03-28T01:42:57 PDT" name="verifyLoginPage" finished-at="2024-03-28T01:43:06 PDT" duration-ms="8484" status="PASS">
+        <test-method signature="verifyLoginPage()[pri:0, instance:TestCase.TC_004_GoogleSignup@4d154ccd]" started-at="2024-03-29T01:56:44 PDT" name="verifyLoginPage" finished-at="2024-03-29T01:57:57 PDT" duration-ms="73002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPage -->
       </class> <!-- TestCase.TC_004_GoogleSignup -->
       <class name="TestCase.TC_003_GoogleLogin">
-        <test-method signature="verifyLoginPage()[pri:0, instance:TestCase.TC_003_GoogleLogin@65c7a252]" started-at="2024-03-28T01:42:24 PDT" name="verifyLoginPage" finished-at="2024-03-28T01:42:57 PDT" duration-ms="32711" status="PASS">
+        <test-method signature="verifyLoginPage()[pri:0, instance:TestCase.TC_003_GoogleLogin@65c7a252]" started-at="2024-03-29T01:56:22 PDT" name="verifyLoginPage" finished-at="2024-03-29T01:56:43 PDT" duration-ms="21278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPage -->
       </class> <!-- TestCase.TC_003_GoogleLogin -->
       <class name="TestCase.TC_002_UsedCarsDetails">
-        <test-method signature="UsedCarDetails()[pri:0, instance:TestCase.TC_002_UsedCarsDetails@18df8434]" started-at="2024-03-28T01:42:08 PDT" name="UsedCarDetails" finished-at="2024-03-28T01:42:24 PDT" duration-ms="16246" status="PASS">
+        <test-method signature="UsedCarDetails()[pri:0, instance:TestCase.TC_002_UsedCarsDetails@18df8434]" started-at="2024-03-29T01:56:02 PDT" name="UsedCarDetails" finished-at="2024-03-29T01:56:22 PDT" duration-ms="19938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UsedCarDetails -->
       </class> <!-- TestCase.TC_002_UsedCarsDetails -->
       <class name="TestCase.TC_001_UpcomingBikeDetails">
-        <test-method is-config="true" signature="invokeBrowser(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC_001_UpcomingBikeDetails@6221a451]" started-at="2024-03-28T01:39:09 PDT" name="invokeBrowser" finished-at="2024-03-28T01:39:49 PDT" duration-ms="40551" status="PASS">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC_001_UpcomingBikeDetails@6221a451]" started-at="2024-03-29T01:55:09 PDT" name="invokeBrowser" finished-at="2024-03-29T01:55:28 PDT" duration-ms="18434" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,22 +53,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method signature="clickNewBikes()[pri:0, instance:TestCase.TC_001_UpcomingBikeDetails@6221a451]" started-at="2024-03-28T01:39:50 PDT" name="clickNewBikes" finished-at="2024-03-28T01:41:21 PDT" duration-ms="91461" status="PASS">
+        <test-method signature="clickNewBikes()[pri:0, instance:TestCase.TC_001_UpcomingBikeDetails@6221a451]" started-at="2024-03-29T01:55:28 PDT" name="clickNewBikes" finished-at="2024-03-29T01:55:38 PDT" duration-ms="10251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickNewBikes -->
-        <test-method signature="clickUpcomingBikes()[pri:0, instance:TestCase.TC_001_UpcomingBikeDetails@6221a451]" started-at="2024-03-28T01:41:21 PDT" name="clickUpcomingBikes" finished-at="2024-03-28T01:42:07 PDT" depends-on-methods="TestCase.TC_001_UpcomingBikeDetails.clickNewBikes" duration-ms="45851" status="PASS">
+        <test-method signature="clickUpcomingBikes()[pri:0, instance:TestCase.TC_001_UpcomingBikeDetails@6221a451]" started-at="2024-03-29T01:55:39 PDT" name="clickUpcomingBikes" finished-at="2024-03-29T01:56:01 PDT" depends-on-methods="TestCase.TC_001_UpcomingBikeDetails.clickNewBikes" duration-ms="22323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickUpcomingBikes -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.TC_001_UpcomingBikeDetails@6221a451]" started-at="2024-03-28T01:43:06 PDT" name="tearDown" finished-at="2024-03-28T01:43:07 PDT" duration-ms="1164" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.TC_001_UpcomingBikeDetails@6221a451]" started-at="2024-03-29T01:57:57 PDT" name="tearDown" finished-at="2024-03-29T01:57:59 PDT" duration-ms="1597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

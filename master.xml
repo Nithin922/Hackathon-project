@@ -6,7 +6,7 @@
 		<listener class-name="Utils.ExtentReportManager"></listener>
 	</listeners>
 	<test thread-count="5" name="ChromeTest">
-		<parameter name="os" value="Windows" />
+		<parameter name="os" value="Windows" /> 
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="TestCase.TC_001_UpcomingBikeDetails" />

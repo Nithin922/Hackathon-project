@@ -14,6 +14,13 @@
       </run>
     </groups>
     <classes>
+      <class name="TestCase.TC_003_GoogleLogin">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="verifyLoginPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCase.TC_003_GoogleLogin -->
       <class name="TestCase.TC_001_UpcomingBikeDetails">
         <methods>
           <include name="clickNewBikes"/>

@@ -138,7 +138,7 @@
 
 		<dependency>
 			<groupId>tech.grasshopper</groupId>
-			<artifactId>extentreports-cucumber5-adapter</artifactId>
+			<artifactId>extentreports-cucumber7-adapter</artifactId>
 			<version>1.1.0</version>
 		</dependency>
 
